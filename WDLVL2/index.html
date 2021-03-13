@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="initialize();">
+    <br>
+    <h1 style="text-align: center;font-size: 50px; font-weight: 1500;">Matching Game</h1>
+    <br>
+    <center>
+        <div>
+            <table class="border">
+                <tr>
+                    <td class="border-col"><img class="cards" id = "1" src="Images/card.png" alt=""></th>
+                    <td class="border-col"><img class="cards" id = "2" src="Images/card.png" alt=""></td>
+                    <td class="border-col"><img class="cards" id = "3" src="Images/card.png" alt=""></td>
+                    <td class="border-col"><img class="cards" id = "4" src="Images/card.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td class="border-col"><img class="cards" id = "5" src="Images/card.png" alt=""></td>
+                    <td class="border-col"><img class="cards" id = "6" src="Images/card.png" alt=""></td>
+                    <td class="border-col"><img class="cards" id = "7" src="Images/card.png" alt=""></td>
+                    <td class="border-col"><img class="cards" id = "8" src="Images/card.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td class="border-col"><img class="cards" id = "9" src="Images/card.png" alt=""></td>
+                    <td class="border-col"><img class="cards" id = "10" src="Images/card.png" alt=""></td>
+                    <td class="border-col"><img class="cards" id = "11" src="Images/card.png" alt=""></td>
+                    <td class="border-col"><img class="cards" id = "12" src="Images/card.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td class="border-col"><img class="cards" id = "13" src="Images/card.png" alt=""></td>
+                    <td class="border-col"><img class="cards" id = "14" src="Images/card.png" alt=""></td>
+                    <td class="border-col"><img class="cards" id = "15" src="Images/card.png" alt=""></td>
+                    <td class="border-col"><img class="cards" id = "16" src="Images/card.png" alt=""></td>
+                </tr>
+            </table>
+            <h1 style="font-size: 40px;">Score : <span style="color: rgb(177, 0, 0)" id="score">0</span></h1>
+            <button class="ui negative button" id="restart"><h1>Restart</h1></button>
+        </div>
+        <div>
+            <h1>Hall Of Fame</h1>
+            <div class="hall" style="text-align:center;">
+                <ul id="leaderboard">
+                </ul>
+            </div>
+        </div>
+    </center>
+</body>
+</html>

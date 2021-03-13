@@ -1,0 +1,13 @@
+html {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+#charts{display: flex;flex-wrap: wrap;justify-content: center;}
+.contC{background-color:white;border: 5px solid rgba(36, 151, 45, 0.3);border-radius: 20px; width: 375px; margin: 10px;}
+.chart{margin: 10px;width: 95%; height: 300px;display: inline-block;}

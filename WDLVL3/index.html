@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Dice</title>
+    <script src="script.js"></script>
+</head>
+<body onload="initialize();">
+    <div class="intro">
+        <h1>Dice Simulation</h1>
+        <div class="ui input">
+            <h3>Number Of Dice:</h3>
+            <input id="numOdie" type="number">
+            <h3>Number Of Turns:</h3>
+            <input type="number" id="numOturns">
+            <button onclick="numBtn();startRoll();" class="ui button" style="height: 35px">Submit</button>
+        </div>
+    </div>
+    <hr>
+    <center><h1>Turn Number: <span id="turnNumber">0</span></h1><span id="ptopdie"></span></center>
+    </div>
+    <hr>
+    <br>
+    <div>
+        <div class="ptopt"><table class="bruh"align="center" id="ptopt" border="3"></table></div>
+        <br>
+        <center>
+        <table id="totalStats" border="3"></table>
+        </center>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.intro{
+	text-align: center;
+}
+input{
+	height: 35px;
+	width: 60px;
+}
+.die{
+	width: 80px;
+}
+h3{
+	margin: 0px;
+}
+table{
+	border-collapse: collapse;
+}
+th{
+	font-size: 20px;
+	padding: 10px;
+}
+td{
+	text-align: center;
+	font-size:15px;
+	padding: 5px;
+}
+h2{
+	text-align: center;
+}
+hr{
+	width: 250px;
+}
+.ptopt{
+	margin: auto;
+	text-align: center;
+	height: 220px;
+	overflow: scroll;
+}

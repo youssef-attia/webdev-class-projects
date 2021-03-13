@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>SPLAT</title>
+</head>
+<body onload="initialize()" style="background-image: url(images/background.png);" >
+<h1>S.P.L.A.T.</h1>
+<span><h1>Total families ruined: <span id="score">0</span>  Coins:<span id="coinscore">0</span></span>
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>You won with a score of <span id="iscore"></span> and collected <span id="coinss">0</span> coins</p>
+        <button onclick="restart()">Restart</button>
+    </div>
+</div>
+<div id="playfield"></div>
+</body>
+</html>
